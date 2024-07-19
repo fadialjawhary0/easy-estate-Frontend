@@ -12,7 +12,7 @@ const Header = () => {
             <span className='text-blue-700'>Estate</span>
           </h1>
         </Link>
-        <form className='bg-gray-100 p-2 rounded-full flex items-center shadow-inner'>
+        <form className='bg-gray-100 p-2 rounded-md flex items-center shadow-inner'>
           <input type='text' placeholder='Search...' className='bg-transparent focus:outline-none w-24 sm:w-64 px-2' />
           <FaSearch className='text-gray-600' />
         </form>
